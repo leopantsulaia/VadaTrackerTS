@@ -41,6 +41,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-secondary/30 flex flex-col items-center p-4 pt-8 md:p-8">
+      <p>THIS IS MY FIRST TYPESCRIPT PROJECT</p>
       <div className="w-full max-w-3xl space-y-8">
         <header className="w-full text-center space-y-4">
           <div className="inline-block p-1 bg-card rounded-lg shadow-md">
@@ -66,7 +67,7 @@ export default function Home() {
         </section>
 
         <footer className="text-center text-sm text-muted-foreground py-8">
-          <p>&copy; {new Date().getFullYear()} VadaTracker. Powered by good food and good code.</p>
+          <p>&copy; {new Date().getFullYear()} VadaTracker. Powered by good food and good code by LeoPantsulaia.</p>
         </footer>
       </div>
     </div>
